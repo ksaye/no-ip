@@ -117,7 +117,7 @@ else {
 
     //echo geoip_isp_by_name($ip);
 
-    echo "Using Azure Tables.  Using storage account: ". explode(";", $_SERVER["CUSTOMCONNSTR_StorageAccount"])[1]."</p>";
+    echo "Using Azure Tables and github.  Using storage account: ". explode(";", $_SERVER["CUSTOMCONNSTR_StorageAccount"])[1]."</p>";
     echo "<table cellpadding=5><tr align=center><td><b>User ID</b></td><td><b>Host Name</b></td><td><b>Updates</b></td><td><b>IP Address</b></td><td><b>VPNs</b></td><td><b>Date / Time</b></td><td><b> DDNS Result</b></td></tr>";
 
     foreach($entities as $entity){
